@@ -1,0 +1,49 @@
+.introtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+
+p {
+    color: #EE4B2B;
+    font-size: 30px;
+    font-family: 'Compressa VF';
+    text-transform: uppercase;
+}
+
+@font-face {
+  font-family: 'Compressa VF';
+  src: url('https://res.cloudinary.com/dr6lvwubh/raw/upload/v1529908256/CompressaPRO-GX.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.popup-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Optional dimmed overlay */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 90%;
+  max-height: 80%;
+  overflow-y: auto;
+  color: white;
+  position: relative;
+}
+
+

@@ -1,0 +1,47 @@
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  background: red;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h1 {
+  align-items: center;
+  font-family:  'Compressa VF' ;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #222222;
+}
+
+.skill_title {
+  font-family: 'Compressa VF';
+  font-size: 40px ;
+  font-weight: 600;
+  color: #EE4B2B;
+}
+
+.skill_logo {
+  width: 150px;
+}
+
+.skill_container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}

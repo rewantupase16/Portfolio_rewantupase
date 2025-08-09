@@ -1,0 +1,111 @@
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  background: red;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h1 {
+  align-items: center;
+  font-family:  'Compressa VF' ;
+}
+
+.line {
+  color: white;
+}
+
+img {
+  width: 400px ;
+  border-radius: 30px;
+}
+
+.project {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.project_info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 20px;
+}
+
+.project_title {
+  font-family: 'Compressa VF';
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.project_description {
+  font-family: 'Compressa VF';
+  font-size: 20px;
+  font-weight: 400;
+  color: #EE4B2B ;
+}
+
+button {
+  border-radius: 10px;
+  padding: 7px;
+  font-family: 'Compressa VF';
+  border-color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #111111;
+  padding: 2rem;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  position: relative;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.modal-content img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
